@@ -1,0 +1,93 @@
+body {
+  color: rgb(115, 115, 115);
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+
+}
+
+#navbar {
+  margin: 20px 20px;
+  height: 40px;
+}
+
+#signin {
+  float: right;
+  padding: 8px;
+  background-color: rgb(67, 136, 242);
+  font-weight: bold;
+  color: white;
+}
+
+.material-icons {
+  float: right;
+}
+
+#fname {
+  height: 45px;
+  width: 550px;
+  padding: 12px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 65px;
+}
+
+p{
+display: inline;
+padding: 10px;
+background-color: rgb(242, 242, 242);
+text-transform: capitalize;
+font-weight: bold;
+}
+/* not responsive  z-index: 1; removed from #fname
+#mic{
+position: relative;
+left:795px;
+bottom: 20px;
+z-index: 5;
+}
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+  padding: 10px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding-top: 350px;
+  margin: 0;
+  background-image: url("images/googlelogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  height: 100px;
+}
+
+.footer ul {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(242, 242, 242);
+  border-top: 1px solid rgb(255, 255, 255);
+  height: 40px;
+  width: 100%;
+}
